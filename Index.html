@@ -1,0 +1,36 @@
+<html lang="en">
+   <head> 
+		<!-- CSS Load -->
+			<link rel="stylesheet" href="assets/styles/bootstrap.min.css">
+		<!-- JS Load -->
+			<script src="assets/js/functions.js"></script>
+      
+   </head>
+   <body>      
+      <br>
+	  <div class ="container">
+	  <center><h4>Cookie Assignment</h4></center><br>
+	  <form name = "myform" action = "#">
+			<div class="form-group">
+				<label>Enter Name</label>
+				<input type="text" class="form-control" id="name" placeholder="Enter Name">
+				</div>
+			<div class="form-group">
+				<label>Enter Age</label>
+				<input type="number" class="form-control" id ="age" placeholder="Enter Number">
+			</div>
+			<div class="form-group">
+				<label>Enter Country</label>
+				<input type="text" class="form-control" id="country" placeholder="Enter Country">
+			</div>
+			<center>
+				<input type = "button" class="btn btn-primary" value= "Set Cookie" onclick = "setCookie();"/>
+				<input type = "button" class="btn btn-success" value= "Get cookie" onclick = "getCookie();"/>
+				<input type = "button" class="btn btn-warning" value= "Clear Form" onclick = "remove();"/>
+				<input type = "button" class="btn btn-danger" value= "Delete Cookie" onclick = "deleteCookie();"/>
+			</center>
+		</form>
+	</div>
+	  
+   </body>
+</html>
